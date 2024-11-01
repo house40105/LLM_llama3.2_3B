@@ -50,4 +50,4 @@ outputs = model.generate(**inputs, pad_token_id=tokenizer.eos_token_id, max_new_
 # Decode the generated tokens to convert them back to readable text
 # 'skip_special_tokens' removes any special tokens used for formatting or marking sections
 output_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
-print("Output text:", output_text)
+print("\n\nOutput text:", output_text)
