@@ -1,4 +1,5 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
+import torch
 
 
 # Define the path to the locally stored model directory
